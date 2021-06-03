@@ -45,7 +45,6 @@ app.post("/events", (req, res) => {
 
     console.log("comment-moderated > posts ", posts, postid, id, comment);
   }
-
   res.send({});
 });
 
